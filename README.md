@@ -1,10 +1,10 @@
 # gradle-deps
 all gradle dependencies files
 
-Use
+Define
 ---
 ```groovy
-ext.gradles = [
+ext.https = [
         deps   : 'https://github.com/forgetman/gradle-deps/blob/master/deps.gradle?raw=true',
         jitpack: 'https://github.com/forgetman/gradle-deps/blob/master/jitpack.gradle?raw=true',
         version: 'https://github.com/forgetman/gradle-deps/blob/master/version.gradle?raw=true',
