@@ -40,18 +40,19 @@ ext.configs = [
 ]
 
 ext.plugs = [
-        android: [
-                app: 'com.android.application',
-                lib: 'com.android.library',
+        android : [
+                app   : 'com.android.application',
+                lib   : 'com.android.library',
         ],
-        kotlin : [
+        kotlin  : [
                 kotlin    : 'kotlin',
                 android   : 'kotlin-android',
                 extensions: 'kotlin-android-extensions',
                 kapt      : 'kotlin-kapt',
         ],
-        java   : 'java-library',
-        maven  : 'com.github.dcendents.android-maven',
+        java    : 'java-library',
+        maven   : 'com.github.dcendents.android-maven',
+        greendao: 'org.greenrobot.greendao',
 ]
 
 ext.paths = [
@@ -60,6 +61,7 @@ ext.paths = [
         kotlinExtensions: "org.jetbrains.kotlin:kotlin-android-extensions:$versions.kotlin",
         butterknife     : "com.jakewharton:butterknife-gradle-plugin:$versions.butterknife",
         mavenPlugin     : 'com.github.dcendents:android-maven-gradle-plugin:2.1',
+        greendao        : 'org.greenrobot:greendao-gradle-plugin:3.2.2',
 ]
 
 ext.deps = [
