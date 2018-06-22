@@ -2,7 +2,7 @@
  * 共享编译文件, 保证所有工程使用同样的依赖和maven库
  **/
 ext.versions = [
-        minSdk        : 15,
+        minSdk        : 16,
         compileSdk    : 27,
         buildTools    : '28.0.0',
 
@@ -215,4 +215,5 @@ ext.https = [
         deps   : 'https://github.com/forgetman/gradle-deps/blob/master/deps.gradle?raw=true',
         jitpack: 'https://github.com/forgetman/gradle-deps/blob/master/jitpack.gradle?raw=true',
         version: 'https://github.com/forgetman/gradle-deps/blob/master/version.gradle?raw=true',
+        aop    : 'https://github.com/forgetman/gradle-deps/blob/master/aop.gradle?raw=true',
 ]
