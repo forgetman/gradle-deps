@@ -129,7 +129,6 @@ ext.deps = [
 ]
 
 apply from: 'https://raw.githubusercontent.com/forgetman/gradle-deps/master/maven.gradle' // maven
-apply from: 'https://raw.githubusercontent.com/forgetman/gradle-deps/master/jitpack.gradle' // jitpack
 apply from: 'https://raw.githubusercontent.com/forgetman/gradle-deps/master/rx.gradle' // rx
 apply from: 'https://raw.githubusercontent.com/forgetman/gradle-deps/master/kotlin.gradle' // kotlin
 
