@@ -1,0 +1,15 @@
+ext.versions += [
+        greendao: '3.2.2',
+]
+
+ext.plugs += [
+        greendao: 'org.greenrobot.greendao',
+]
+
+ext.paths += [
+        greendao: 'org.greenrobot:greendao-gradle-plugin:$versions.greendao',
+]
+
+ext.deps += [
+        greendao: 'org.greenrobot:greendao:$versions.greendao',
+]

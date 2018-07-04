@@ -1,0 +1,15 @@
+ext.versions += [
+        butterknife: '8.8.1'
+]
+
+ext.paths += [
+        butterknife: "com.jakewharton:butterknife-gradle-plugin:$versions.butterknife"
+]
+
+ext.deps += [
+        butterknife: [
+                core    : "com.jakewharton:butterknife:$versions.butterknife",
+                compiler: "com.jakewharton:butterknife-compiler:$versions.butterknife",
+                kotlin  : 'com.jakewharton:kotterknife:0.1.0-SNAPSHOT',
+        ]
+]

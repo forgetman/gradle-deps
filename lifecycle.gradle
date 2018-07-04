@@ -1,0 +1,18 @@
+ext.versions += [
+        lifecycle   : '1.1.1',
+        lifecycle_rx: '2.2.1',
+]
+
+ext.deps += [
+        lifecycle   : [
+                extensions: "android.arch.lifecycle:extensions:$versions.lifecycle",
+                runtime   : "android.arch.lifecycle:runtime:$versions.lifecycle",
+                compiler  : "android.arch.lifecycle:common-java8:$versions.lifecycle",
+        ],
+        lifecycle_rx: [
+                // github: https://github.com/trello/RxLifecycle
+                android   : "com.trello.rxlifecycle2:rxlifecycle-android:$versions.lifecycle_rx",
+                kotlin    : "com.trello.rxlifecycle2:rxlifecycle-android-lifecycle-kotlin:$versions.lifecycle_rx",
+                components: "com.trello.rxlifecycle2:rxlifecycle-components:$versions.lifecycle_rx",
+        ],
+]

@@ -1,0 +1,12 @@
+ext.versions += [
+        retrofit: '2.4.0'
+]
+
+ext.deps += [
+        retrofit: [ // https://github.com/square/retrofit
+                    core   : "com.squareup.retrofit2:retrofit:$versions.retrofit",
+                    gson   : "com.squareup.retrofit2:converter-gson:$versions.retrofit",
+                    adapter: "com.squareup.retrofit2:adapter-rxjava2:$versions.retrofit",
+                    logging: 'com.squareup.okhttp3:logging-interceptor:3.6.0',
+        ]
+]
