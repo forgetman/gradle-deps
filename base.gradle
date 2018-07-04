@@ -144,9 +144,7 @@ static def addDependencies(DependencyHandler handler) {
 ext.addRepos = this.&addRepos
 ext.addDependencies = this.&addDependencies
 
-/**
- * vector库必要的依赖, 直接在这声明
- */
-apply from: 'gradle-deps/kotlin.gradle'
-apply from: 'gradle-deps/rx.gradle'
-apply from: 'gradle-deps/lifecycle.gradle'
+apply from: 'https://raw.githubusercontent.com/forgetman/gradle-deps/master/maven.gradle' // maven
+apply from: 'https://raw.githubusercontent.com/forgetman/gradle-deps/master/jitpack.gradle' // jitpack
+apply from: 'https://raw.githubusercontent.com/forgetman/gradle-deps/master/rx.gradle' // rx
+apply from: 'https://raw.githubusercontent.com/forgetman/gradle-deps/master/kotlin.gradle' // kotlin
